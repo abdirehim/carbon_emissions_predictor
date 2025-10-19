@@ -1,0 +1,27 @@
+{
+  "model_performance": {
+    "linear_regression": {
+      "mse": 4479923.591551586,
+      "rmse": 2116.5829989753734,
+      "mae": 552.8200045581682,
+      "r2": 0.4259586813710793
+    },
+    "random_forest": {
+      "mse": 3390999.9224488344,
+      "rmse": 1841.466785594797,
+      "mae": 327.9309424540239,
+      "r2": 0.5654894492789962
+    },
+    "gradient_boosting": {
+      "mse": 2825537.8223238913,
+      "rmse": 1680.9336162751613,
+      "mae": 345.33178770200584,
+      "r2": 0.6379457318375965
+    }
+  },
+  "best_model": "gradient_boosting",
+  "best_r2_score": 0.6379457318375965,
+  "feature_count": 15,
+  "training_samples": 4668,
+  "test_samples": 1168
+}
